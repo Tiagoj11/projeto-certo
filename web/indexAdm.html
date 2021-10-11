@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>        
+        <link rel="sortcut icon" href="assets/favicon.ico" type="image/gif" />               
+        <link rel="stylesheet" href="css/menustyle.css">
+        <title>PARADA DIARIA</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-1.11.2.js"></script>  
+        <script src="//code.jivosite.com/widget/QPyDJqE8nL" async></script>
+       
+    </head>
+    <style>
+    .main iframe {
+        border: none;
+        position: absolute;
+        margin-top: 8px;
+        width:  100%;
+        height: 100%;
+   }
+   </style> 
+    <body> 
+        <!-- ESTRUTURA DO MENU -->
+           
+        <!-- CADASTROS -->
+            
+        <div class="topnav" id="myTopnav">
+            <a href="index.html"><img src="assets/img/logomarca_pequena.png" height=40px alt="..." /></a>
+            <div class="dropdown">
+                <button class="dropbtn"> Cadastrar <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="cadastraagendamento.jsp"   target="janela_prog">Agendamento</a>
+                    <a href="cadastracliente1.jsp"       target="janela_prog">Clientes</a>            
+                    <a href="cadastratipopagamento.jsp" target="janela_prog">Tipo Pagamento</a>
+                    <a href="cadastraunidademedida.jsp" target="janela_prog">Unidade Medida</a>
+                    <a href="cadastraproduto.jsp"       target="janela_prog">Produtos</a>                       
+                </div>
+            </div> 
+            
+            <!-- CONSULTAS -->
+            <div class="dropdown">
+                <button class="dropbtn"> Consultar <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="consultaagendamento.jsp"   target="janela_prog">Agendamento</a>
+                    <a href="consultacliente.jsp"       target="janela_prog">Clientes</a>
+                    <a href="consultaestoque.jsp"       target="janela_prog">Estoque</a>
+                    <a href="consultarproduto.jsp"      target="janela_prog">Produtos</a>
+                    <a href="consultatipocorte.jsp"     target="janela_prog">Tipo de Corte</a>
+                    <a href="consultatipopagamento.jsp" target="janela_prog">Tipo Pagamento</a>
+                    <a href="consultaunidademedida.jsp" target="janela_prog">Unidade de Medida</a>
+                </div>
+            </div>  
+        </div>
+        
+        <!-- IFRAME ONDE ABREM AS TELAS DO SISTEMA -->
+        <div class="main">
+            <iframe name="janela_prog" element.mozRequestFullScreen()></iframe>
+            <div class="fundo"></div>
+            </div>
+        </div>
+        
+    </body>
+</html>

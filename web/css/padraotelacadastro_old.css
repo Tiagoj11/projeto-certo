@@ -1,0 +1,120 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+}
+
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:200;
+	font-size: 12px;
+	line-height:10px;
+	color:#777;
+	background:#025002;
+}
+
+.container {
+	max-width:600px;
+	width:100%;
+	margin:0 auto;
+    height: 650px;
+	position:relative;
+}
+
+#paradadiaria input[type="text"], #paradadiaria input[type="email"], #paradadiaria textarea { font:200 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#paradadiaria {
+	background:#025002;
+	width: 600px;
+    height: 550px;
+	padding:1px;
+	margin:5px 0;
+}
+
+#paradadiaria h3 {
+	color: rgb(248, 232, 6);
+	display: block;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+}
+
+#paradadiaria label {
+	color: rgb(231, 221, 221);
+	margin: 10px 0 10px;
+	display:block;
+	font-size:13px;
+	font-weight: bold;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 20px;
+	min-width: 100%;
+	padding: 10px;
+	width: 100%;
+}
+
+#paradadiaria input[type="text"], #paradadiaria input[type="email"], #paradadiaria textarea {
+	width:100%;
+	border:1px solid rgb(59, 54, 54);
+	background:rgb(241, 245, 242);
+	margin:0 0 1px;
+	padding:3px;
+}
+
+#paradadiaria input[type="text"]:hover, #paradadiaria input[type="email"]:hover, #paradadiaria textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid rgb(34, 33, 33);
+}
+
+#paradadiaria textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#paradadiaria input:focus, #paradadiaria textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:rgb(253, 252, 252);
+}
+:-moz-placeholder {
+ color:rgb(253, 252, 252);
+}
+::-moz-placeholder {
+ color:rgb(253, 252, 252);
+}
+:-ms-input-placeholder {
+ color:rgb(253, 252, 252);
+}
+
+.cabecalho {
+  font-size: 13px;
+  align-content: center;
+  color: rgb(240, 10, 10);
+  font-weight: bold;
+  width: 100%;
+  padding: 2px;
+}
+
+/*=============================================================================*/
+/*     DEFINIÇÃO DAS PROPORÇÕES DAS JANELAS DE DADOS    (ORIGINAL)             */
+/*=============================================================================*/
+
+/*                     TIPO PAGAMENTO          */
+.codtipopagto {
+	width: 5%;
+}
+.desctipopagto {
+    width: 25%;
+}

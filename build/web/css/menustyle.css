@@ -1,0 +1,141 @@
+/* 
+********************************************************************************
+ENTRA21 - TURMA MATURITECH 2020    
+DEFINIÇÃO: ARQUIVO CSS PARA MENUS EM PORTUGUÊS E ALEMÃO
+AUTOR: MARCIO SCHOENFELDER
+********************************************************************************
+*/
+
+body {margin:0;font-family:Arial}
+
+.imgposicao {
+    position: absolute;
+    left: 50%;
+    top: 50%
+}
+/* Alteterar Fundo Verde*/
+.topnav {
+    overflow: hidden;
+    background-color: green;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.fundo {
+    padding-top: 20rem;
+    padding-bottom: calc(20rem - 4.5rem);
+    background: url("../assets/img/logomarca_media1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+.painel {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.autenticacao {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1px 65px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.bandeiras {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: auto;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.active {
+    background-color: #064d7c;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+    
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: gray;
+    outline: none;
+    color: rgba(255, 255, 255, 0.959);
+    padding: 12px 14px;
+    background-color: inherit;
+    font-family: Arial,sans-serif;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+/* Fundo do Botão*/
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+    color: black;
+}
+/* Fundo dos Botões abaixo*/
+.dropdown-content a:hover {
+    background-color: green;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav.responsive .dropdown {float: none;}
+.topnav.responsive .dropdown-content {position: relative;}
+.topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+}

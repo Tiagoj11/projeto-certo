@@ -1,0 +1,122 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    -o-font-smoothing:antialiased;
+}
+
+body {
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+    font-weight:200;
+    font-size: 12px;
+    line-height:2px;
+    color:#777;
+    background:#03833c;
+}
+
+.container {
+    max-width:800px;
+    width:100%;
+    margin:0 auto;
+    height: 500px;
+    position:relative;
+}
+
+#paradadiaria {
+    background:#03833c;
+    height: 400px;;
+    padding:2px;
+    margin:2px 0;
+}
+
+#paradadiaria h3 {
+	color: rgb(248, 171, 6);
+	display: block;
+	font-size: 20px;
+	font-weight: 200;
+	text-align: center;
+}
+
+#paradadiaria h4 {
+	color: rgb(248, 171, 6);
+	display: block;
+	font-size: 15px;
+	font-weight: 200;
+	text-align: left;
+}
+
+#paradadiaria label {
+	color: rgb(231, 221, 221);
+	margin:5px 0 1px;
+	display:block;
+	font-size:13px;
+	font-weight: bold;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 1px;
+	min-width: 100%;
+	padding: 2px;
+	width: 100%;
+}
+
+#paradadiaria input[type="text"], #paradadiaria input[type="email"] {
+	width:100%;
+	border:1px solid rgb(59, 54, 54);
+	background:rgb(241, 245, 242);
+	margin:0 0 1px;
+	padding:1px;
+}
+
+#paradadiaria input[type="text"]:hover, #paradadiaria input[type="email"]:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid rgb(34, 33, 33);
+}
+
+#paradadiaria input:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:rgb(253, 252, 252);
+}
+:-moz-placeholder {
+ color:rgb(253, 252, 252);
+}
+::-moz-placeholder {
+ color:rgb(253, 252, 252);
+}
+:-ms-input-placeholder {
+ color:rgb(253, 252, 252);
+}
+
+.cabecalho {
+  font-size: 13px;
+  align-content: center;
+  color: rgba(59, 153, 4, 0.589);
+  font-weight: bold;
+  width: 100%;
+  padding: 2px;
+}
+
+/*=============================================================================*/
+/*     DEFINIÇÃO DAS PROPORÇÕES DAS JANELAS DE DADOS    (ORIGINAL)             */
+/*=============================================================================*/
+
+/*                     AGENDAMENTO          */
+.cpfcliente {
+    width: 60%;
+}
+.horaagenda {
+    width: 35%;    
+}
+.statusagenda {
+    width: 80%;
+}
